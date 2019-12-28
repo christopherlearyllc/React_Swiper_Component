@@ -1,13 +1,18 @@
 .App {
   text-align: center;
+  height: 30%;
 }
 
 .App-logo {
   height: 40vmin;
 }
 
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +22,51 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.App-mobile-text {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 32px;
+  margin-top: -120%;
+}
+
+.App-mobile-textMobile {
+  padding-top: 30px;
+}
+
+.App-mobile-textMobileLandscape {
+  padding: 24px 24px 128px;
+  text-align: left;
+  margin: 0;
+}
+
+.mobile-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #0080ff;
+
+  transform: translateY(-40px);
+}
+
+.mobile-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  color: #00608f;
+
+  transform: translateY(-30px);
+}
+
+.mobile-description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  color: #000;
 }
